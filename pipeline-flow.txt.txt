@@ -1,0 +1,9 @@
+CI/CD Pipeline Flow
+
+1. Developer writes application code.
+2. Code is pushed to GitHub repository.
+3. Jenkins automatically detects the new commit.
+4. Jenkins triggers the build pipeline.
+5. Docker image is created from the application.
+6. The container is deployed into a Kubernetes cluster.
+7. The application runs in a scalable container environment.
